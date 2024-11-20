@@ -1,0 +1,32 @@
+/* NotasAutosave.css */
+
+/* Contenedor de la sección de notas */
+.notas-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Estilo del área de texto */
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-height: 150px;
+  resize: none;
+  outline: none;
+  width: 100%;
+}
+
+/* Estilo de la notificación de guardado */
+.saved-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}

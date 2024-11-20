@@ -1,0 +1,23 @@
+/* App.css */
+
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para el body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilo global para la app */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}

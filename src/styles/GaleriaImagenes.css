@@ -1,0 +1,39 @@
+/* GaleriaImagenes.css */
+
+/* Contenedor de la galería */
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Imagen de la galería */
+.galeria img {
+  max-width: 400px;
+  max-height: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto de hover en la imagen */
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo de los botones */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Estilo del botón en hover */
+button:hover {
+  background-color: #005f72;
+}
